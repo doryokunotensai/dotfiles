@@ -1,0 +1,121 @@
+{
+    "profiles": [
+        {
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 64007,
+                        "vendor_id": 13652
+                    },
+                    "ignore": false,
+                    "ignore_vendor_events": true,
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "0" },
+                            "to": [{ "key_code": "0" }]
+                        },
+                        {
+                            "from": { "key_code": "1" },
+                            "to": [{ "key_code": "1" }]
+                        },
+                        {
+                            "from": { "key_code": "2" },
+                            "to": [{ "key_code": "2" }]
+                        },
+                        {
+                            "from": { "key_code": "3" },
+                            "to": [{ "key_code": "3" }]
+                        },
+                        {
+                            "from": { "key_code": "4" },
+                            "to": [{ "key_code": "4" }]
+                        },
+                        {
+                            "from": { "key_code": "5" },
+                            "to": [{ "key_code": "5" }]
+                        },
+                        {
+                            "from": { "key_code": "6" },
+                            "to": [{ "key_code": "6" }]
+                        },
+                        {
+                            "from": { "key_code": "7" },
+                            "to": [{ "key_code": "7" }]
+                        },
+                        {
+                            "from": { "key_code": "8" },
+                            "to": [{ "key_code": "8" }]
+                        },
+                        {
+                            "from": { "key_code": "9" },
+                            "to": [{ "key_code": "9" }]
+                        },
+                        {
+                            "from": { "key_code": "application" },
+                            "to": [{ "key_code": "right_option" }]
+                        },
+                        {
+                            "from": { "key_code": "delete_forward" },
+                            "to": [{ "key_code": "vk_none" }]
+                        },
+                        {
+                            "from": { "key_code": "end" },
+                            "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                        },
+                        {
+                            "from": { "key_code": "home" },
+                            "to": [{ "software_function": { "iokit_power_management_sleep_system": {} } }]
+                        },
+                        {
+                            "from": { "key_code": "insert" },
+                            "to": [{ "key_code": "grave_accent_and_tilde" }]
+                        },
+                        {
+                            "from": { "key_code": "page_down" },
+                            "to": [{ "key_code": "vk_none" }]
+                        },
+                        {
+                            "from": { "key_code": "page_up" },
+                            "to": [{ "key_code": "vk_none" }]
+                        },
+                        {
+                            "from": { "key_code": "right_alt" },
+                            "to": [{ "key_code": "right_command" }]
+                        },
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [{ "key_code": "escape" }]
+                        }
+                    ]
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "right_option" },
+                            "to": [{ "key_code": "right_command" }]
+                        }
+                    ]
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 668,
+                        "vendor_id": 76
+                    },
+                    "ignore": true
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}
