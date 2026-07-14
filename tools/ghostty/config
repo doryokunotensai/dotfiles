@@ -1,4 +1,4 @@
 theme = Black Metal
 shell-integration-features = no-cursor,no-sudo,title
 cursor-style = block
-font-family = Iosevka Nerd Font
+font-family = Iosevka
