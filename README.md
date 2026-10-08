@@ -16,6 +16,7 @@ My personal macOS config files.
 | gh cli | `tools/gh/config.yml` |
 | claude | `claude/CLAUDE.md`, `claude/settings.json` |
 | ssh | `ssh/config` (no keys) |
+| rectangle | 'RectangleConfig.json' |
 
 ## Restore
 
